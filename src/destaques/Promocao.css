@@ -1,0 +1,14 @@
+.carrousel1 {
+    width: 100%;
+    height: 500px;
+}
+
+.promo {
+    margin-top: 30px;
+    text-align: center;
+    color: violet;
+}
+
+.lista {
+    list-style-type: none;
+}

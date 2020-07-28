@@ -1,0 +1,61 @@
+.naveg {
+    padding: 5px 0px;
+}
+
+.barNav{
+    text-align: center;
+    padding: 5px 10px;
+    margin-top: 80px;
+    background-color: #ff69b4;
+}
+
+.barNav button{
+    border: none;
+    background-color: #ffb6c1;
+    color: white;
+    transition-duration: 0.4s;
+    padding: 9px 24px;
+    display: inline-block;
+    width: 180px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.barNav button:hover {
+    background-color: white;
+    color: #ff69b4;
+}
+
+@media(max-width: 1200px){
+    .barNav button{
+        padding: 9px 24px;
+        display: inline-block;
+        width: 150px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 1060px){
+    .barNav button{
+        padding: 9px 24px;
+        display: inline-block;
+        width: 130px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 939px){
+    .barNav button{
+        padding: 9px 24px;
+        display: inline-block;
+        width: 100px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 13px;
+    }
+}
